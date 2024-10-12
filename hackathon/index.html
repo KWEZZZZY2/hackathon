@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Eco-Mission Docs</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <header>
+            <img src='icon.jpg' id='icon' alt="Icon of our game"/>
+            <span id='manual' onclick="navigate('manual')">Manual</span>
+        </header>
+    </nav>
+    <main>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#why">Зачем, для чего? Цель игры.</a></li>
+                <li><a href="#description">Описание</a></li>
+                <li><a href="#ad">Достоинства и недостатки</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <section id="why">
+                <h2>Цель нашей игры</h2>
+                <p>Наша игра создана для повышения экологической осведомленности...</p>
+            </section>
+            <section id="description">
+                <h2>Описание игры</h2>
+                <h1>Краткое описание концепции игры</h1>
+                <p>Игра представляет собой интерактивную платформу, где игроки становятся защитниками природы, сталкиваясь с различными экологическими вызовами. Каждый уровень игры посвящен конкретной проблеме, требующей творческого подхода и решения.</p>
+                <h1>Основная цель игры: экологическое образование через игровые механики</h1>
+                <p>Игроки не только развлекаются, но и получают знания о загрязнении окружающей среды, изменении климата и сохранении биоразнообразия. Игра позволяет им увидеть, как их действия влияют на природу и общество.</p>
+                <h1>Игровой процесс: как игроки могут взаимодействовать с экологическими проблемами.</h1>
+                <p>Игроки могут выбирать различные уровни, которые посвящены конкретным экологическим задачам. Например, они могут участвовать в миссиях по очистке океанов от пластика, восстановлению лесов через посадку деревьев или управлению ресурсами для уменьшения углеродного следа. В процессе игры игроки зарабатывают очки за успешные действия и получают доступ к дополнительным материалам и фактам об экологии.</p>
+                <h1>Примеры задач, которые решает игра:</h1>
+                <ol class="rounded">
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" id="posadka">Посадка деревьев</span>
+                        <span class="description" id="p2">Игроки учатся о важности лесов и проходят миссии по восстановлению зеленых насаждений в различных регионах.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" id="ochistka">Очистка воды</span>
+                        <span class="description" id="o2">Игроки принимают участие в проектах по очистке водоемов, узнавая о загрязнении и его последствиях.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" id="utilizatsya">Утилизация отходов</span>
+                        <span class="description" id="u2">Игроки решают задачи по сортировке и переработке отходов, осваивая принципы устойчивого потребления.</span>
+                    </li>
+                </ol>
+            </section>
+            <section id="ad">
+                <h2>Достоинства</h2>
+                <ol class="rounded">
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Образовательный аспект</span>
+                        <span class="description" >Игра способствует повышению экологической осведомленности, позволяя игрокам узнать о важных экологических проблемах и способах их решения.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Интерактивность</span>
+                        <span class="description" >Игроки могут активно участвовать в решении экологических задач, что делает процесс обучения более увлекательным и запоминающимся.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Социальное взаимодействие</span>
+                        <span class="description" >Возможность сотрудничества с другими игроками для достижения общих целей создает чувство сообщества и совместной ответственности.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Разнообразие задач</span>
+                        <span class="description" >Игра предлагает разнообразные миссии и уровни, что удерживает интерес и мотивацию игроков.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Доступность</span>
+                        <span class="description" >Мобильный формат приложения позволяет легко подключиться к игре в любое время и в любом месте.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Практическое применение</span>
+                        <span class="description" >Игра может вдохновить игроков на участие в реальных экологических инициативах и действиях в своей повседневной жизни.</span>
+                    </li>
+                </ol>
+                <h2>Недостатки</h2>
+                <ol class="rounded">
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Потенциальная зависимость</span>
+                        <span class="description" >Как и в случае с любыми играми, существует риск, что игроки могут слишком увлечься игровым процессом и забыть о реальных обязанностях.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Ограниченная глубина информации</span>
+                        <span class="description" >Несмотря на образовательный аспект, некоторые игроки могут не получить достаточной глубины знаний о сложных экологических темах.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Краткосрочный эффект</span>
+                        <span class="description" >Игроки могут быстро потерять интерес после завершения игры, что может ограничить долгосрочное воздействие на их экологическое сознание.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Технические ограничения</span>
+                        <span class="description" >Наличие проблем с устройством или интернет-соединением может затруднить доступ к игре для некоторых пользователей.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Разные уровни вовлеченности</span>
+                        <span class="description" >Не все игроки могут быть одинаково заинтересованы в экологии, что может снизить мотивацию для участия в игре.</span>
+                    </li>
+                    <li onmouseover="toggleVisibility(this, true)" onmouseout="toggleVisibility(this, false)">
+                        <span class="title" >Сложность восприятия</span>
+                        <span class="description" >Для некоторых пользователей игровые механики могут оказаться сложными или запутанными, что может негативно сказаться на игровом опыте.</span>
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <div id="overlay">
+            <span id="close">&times;</span>
+            <img src="icon.jpg" id="largeIcon" alt="Large Icon"/>
+        </div>
+    </main>
+</body>
+</html>
